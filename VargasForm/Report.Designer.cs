@@ -96,9 +96,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.mcdo11;
-            pictureBox1.Location = new Point(112, 98);
+            pictureBox1.Location = new Point(114, 75);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(347, 192);
+            pictureBox1.Size = new Size(347, 283);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
@@ -113,8 +113,9 @@
             dataGridView1.Location = new Point(563, 98);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(550, 177);
+            dataGridView1.Size = new Size(550, 192);
             dataGridView1.TabIndex = 3;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // Column1
             // 

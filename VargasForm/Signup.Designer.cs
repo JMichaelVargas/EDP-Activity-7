@@ -170,7 +170,7 @@
             // button1
             // 
             button1.BackColor = Color.White;
-            button1.Location = new Point(191, 435);
+            button1.Location = new Point(182, 429);
             button1.Name = "button1";
             button1.Size = new Size(123, 43);
             button1.TabIndex = 25;
@@ -208,7 +208,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PaleGoldenrod;
-            ClientSize = new Size(522, 540);
+            ClientSize = new Size(530, 568);
             Controls.Add(checkBox1);
             Controls.Add(pictureBox1);
             Controls.Add(button1);

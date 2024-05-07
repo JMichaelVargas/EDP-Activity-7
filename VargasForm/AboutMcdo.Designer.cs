@@ -57,6 +57,7 @@
             okButton.TabIndex = 24;
             okButton.Text = "&OK";
             okButton.UseVisualStyleBackColor = false;
+            okButton.Click += okButton_Click;
             // 
             // textBoxDescription
             // 
