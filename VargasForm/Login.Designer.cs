@@ -52,7 +52,7 @@ namespace VargasForm
             // button1
             // 
             button1.BackColor = Color.White;
-            button1.Location = new Point(232, 378);
+            button1.Location = new Point(233, 399);
             button1.Name = "button1";
             button1.Size = new Size(123, 43);
             button1.TabIndex = 0;
@@ -62,7 +62,7 @@ namespace VargasForm
             // 
             // username
             // 
-            username.Location = new Point(202, 229);
+            username.Location = new Point(203, 250);
             username.Name = "username";
             username.Size = new Size(211, 27);
             username.TabIndex = 1;
@@ -70,7 +70,7 @@ namespace VargasForm
             // 
             // password
             // 
-            password.Location = new Point(202, 278);
+            password.Location = new Point(203, 299);
             password.Name = "password";
             password.Size = new Size(211, 27);
             password.TabIndex = 2;
@@ -80,7 +80,7 @@ namespace VargasForm
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(123, 236);
+            label1.Location = new Point(124, 257);
             label1.Name = "label1";
             label1.Size = new Size(49, 20);
             label1.TabIndex = 3;
@@ -90,7 +90,7 @@ namespace VargasForm
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(123, 281);
+            label2.Location = new Point(124, 302);
             label2.Name = "label2";
             label2.Size = new Size(73, 20);
             label2.TabIndex = 4;
@@ -99,7 +99,7 @@ namespace VargasForm
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(251, 265);
+            label3.Location = new Point(252, 286);
             label3.Name = "label3";
             label3.Size = new Size(0, 20);
             label3.TabIndex = 6;
@@ -107,7 +107,7 @@ namespace VargasForm
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(202, 326);
+            checkBox1.Location = new Point(203, 347);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(132, 24);
             checkBox1.TabIndex = 7;
@@ -118,7 +118,7 @@ namespace VargasForm
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(160, 479);
+            label4.Location = new Point(161, 500);
             label4.Name = "label4";
             label4.Size = new Size(198, 20);
             label4.TabIndex = 9;
@@ -128,7 +128,7 @@ namespace VargasForm
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(355, 479);
+            linkLabel1.Location = new Point(356, 500);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(61, 20);
             linkLabel1.TabIndex = 10;
@@ -140,7 +140,7 @@ namespace VargasForm
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Times New Roman", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(149, 109);
+            label5.Location = new Point(150, 130);
             label5.Name = "label5";
             label5.Size = new Size(274, 68);
             label5.TabIndex = 11;
@@ -151,7 +151,7 @@ namespace VargasForm
             // 
             linkLabel2.AutoSize = true;
             linkLabel2.LinkColor = Color.Black;
-            linkLabel2.Location = new Point(230, 444);
+            linkLabel2.Location = new Point(231, 465);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(125, 20);
             linkLabel2.TabIndex = 12;
@@ -163,7 +163,7 @@ namespace VargasForm
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(160, 177);
+            label6.Location = new Point(161, 198);
             label6.Name = "label6";
             label6.Size = new Size(240, 23);
             label6.TabIndex = 13;
@@ -176,7 +176,7 @@ namespace VargasForm
             pictureBox1.ErrorImage = null;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.InitialImage = null;
-            pictureBox1.Location = new Point(232, 12);
+            pictureBox1.Location = new Point(233, 33);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(122, 94);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -189,7 +189,7 @@ namespace VargasForm
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PaleGoldenrod;
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(570, 520);
+            ClientSize = new Size(567, 564);
             Controls.Add(pictureBox1);
             Controls.Add(label6);
             Controls.Add(linkLabel2);

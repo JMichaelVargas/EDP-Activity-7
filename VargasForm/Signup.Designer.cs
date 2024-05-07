@@ -208,7 +208,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PaleGoldenrod;
-            ClientSize = new Size(530, 568);
+            ClientSize = new Size(517, 578);
             Controls.Add(checkBox1);
             Controls.Add(pictureBox1);
             Controls.Add(button1);
