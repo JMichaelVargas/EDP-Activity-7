@@ -38,7 +38,6 @@ namespace VargasForm
                         originalDataTable = new DataTable();
                         adapter.Fill(originalDataTable);
 
-                        // Bind the original DataTable to the DataGridView
                         dataGridView1.DataSource = originalDataTable;
                     }
                 }
@@ -59,7 +58,6 @@ namespace VargasForm
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                // Set the selected file path to the label
                 textBox1.Text = openFileDialog1.FileName;
             } 
         }
@@ -91,7 +89,6 @@ namespace VargasForm
                         }
                     }
 
-                    // Get product names range
                     Excel.Range productRange = worksheet.Range["C9", "C18"];
 
                     // Create a new worksheet for the chart
